@@ -100,6 +100,3 @@ If the job is active:
 ## **Authors** 👩‍💻👨‍💻
 
 - [@BlobJR → Alexandre Roussel](https://github.com/BlobJR)  
-- [@ReyseMujeriego → Alexandre Tellez](https://github.com/ReyseMujeriego)  
-- [@PaulineClausse](https://github.com/PaulineClausse)  
-- [@BaHeCeJo → Baptiste Jacoumet](https://github.com/BaHeCeJo)  
