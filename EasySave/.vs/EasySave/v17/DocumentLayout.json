@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dl\\projetsololocal\\EasySave\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|d:\\dl\\projetsololocal\\easysave\\easysave.core\\services\\differential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|solutionrelative:easysave.core\\services\\differential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|d:\\dl\\projetsololocal\\easysave\\easysave.core\\services\\complete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|solutionrelative:easysave.core\\services\\complete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|d:\\dl\\projetsololocal\\easysave\\easysave.core\\services\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|solutionrelative:easysave.core\\services\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CFB8E7-10C3-4D0D-9EF2-A570F710B2EB}|RemoteConsole\\EasySave.RemoteConsole.csproj|d:\\dl\\projetsololocal\\easysave\\remoteconsole\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CFB8E7-10C3-4D0D-9EF2-A570F710B2EB}|RemoteConsole\\EasySave.RemoteConsole.csproj|solutionrelative:remoteconsole\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|d:\\dl\\projetsololocal\\easysave\\easysave.desktop\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|solutionrelative:easysave.desktop\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|d:\\dl\\projetsololocal\\easysave\\easysave.desktop\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|solutionrelative:easysave.desktop\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|d:\\dl\\projetsololocal\\easysave\\easysave.desktop\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|solutionrelative:easysave.desktop\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|d:\\dl\\projetsololocal\\easysave\\easysave.core\\services\\jobmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|solutionrelative:easysave.core\\services\\jobmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|d:\\dl\\projetsololocal\\easysave\\easysave.core\\services\\remoteconsoleserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|solutionrelative:easysave.core\\services\\remoteconsoleserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CFB8E7-10C3-4D0D-9EF2-A570F710B2EB}|RemoteConsole\\EasySave.RemoteConsole.csproj|d:\\dl\\projetsololocal\\easysave\\remoteconsole\\services\\tcpclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CFB8E7-10C3-4D0D-9EF2-A570F710B2EB}|RemoteConsole\\EasySave.RemoteConsole.csproj|solutionrelative:remoteconsole\\services\\tcpclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|d:\\dl\\projetsololocal\\easysave\\easysave.core\\services\\languagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|solutionrelative:easysave.core\\services\\languagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CFB8E7-10C3-4D0D-9EF2-A570F710B2EB}|RemoteConsole\\EasySave.RemoteConsole.csproj|d:\\dl\\projetsololocal\\easysave\\remoteconsole\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CFB8E7-10C3-4D0D-9EF2-A570F710B2EB}|RemoteConsole\\EasySave.RemoteConsole.csproj|solutionrelative:remoteconsole\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CFB8E7-10C3-4D0D-9EF2-A570F710B2EB}|RemoteConsole\\EasySave.RemoteConsole.csproj|d:\\dl\\projetsololocal\\easysave\\remoteconsole\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D0CFB8E7-10C3-4D0D-9EF2-A570F710B2EB}|RemoteConsole\\EasySave.RemoteConsole.csproj|solutionrelative:remoteconsole\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CFB8E7-10C3-4D0D-9EF2-A570F710B2EB}|RemoteConsole\\EasySave.RemoteConsole.csproj|d:\\dl\\projetsololocal\\easysave\\remoteconsole\\utils\\uilanguagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CFB8E7-10C3-4D0D-9EF2-A570F710B2EB}|RemoteConsole\\EasySave.RemoteConsole.csproj|solutionrelative:remoteconsole\\utils\\uilanguagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|d:\\dl\\projetsololocal\\easysave\\easysave.desktop\\utils\\uilanguagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|solutionrelative:easysave.desktop\\utils\\uilanguagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CFB8E7-10C3-4D0D-9EF2-A570F710B2EB}|RemoteConsole\\EasySave.RemoteConsole.csproj|d:\\dl\\projetsololocal\\easysave\\remoteconsole\\utils\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CFB8E7-10C3-4D0D-9EF2-A570F710B2EB}|RemoteConsole\\EasySave.RemoteConsole.csproj|solutionrelative:remoteconsole\\utils\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 142,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Desktop\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "EasySave.Desktop\\Views\\HomePage.xaml",
+              "ToolTip": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Desktop\\Views\\HomePage.xaml",
+              "RelativeToolTip": "EasySave.Desktop\\Views\\HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-22T16:36:26.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Complete.cs",
+              "DocumentMoniker": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\Services\\Complete.cs",
+              "RelativeDocumentMoniker": "EasySave.Core\\Services\\Complete.cs",
+              "ToolTip": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\Services\\Complete.cs",
+              "RelativeToolTip": "EasySave.Core\\Services\\Complete.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBQAAACGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:51:44.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\dl\\projetsololocal\\EasySave\\RemoteConsole\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RemoteConsole\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\dl\\projetsololocal\\EasySave\\RemoteConsole\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "RemoteConsole\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:58:23.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UILanguageManager.cs",
+              "DocumentMoniker": "D:\\dl\\projetsololocal\\EasySave\\RemoteConsole\\Utils\\UILanguageManager.cs",
+              "RelativeDocumentMoniker": "RemoteConsole\\Utils\\UILanguageManager.cs",
+              "ToolTip": "D:\\dl\\projetsololocal\\EasySave\\RemoteConsole\\Utils\\UILanguageManager.cs",
+              "RelativeToolTip": "RemoteConsole\\Utils\\UILanguageManager.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIA2wBAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:46:27.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RemoteConsoleServer.cs",
+              "DocumentMoniker": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\Services\\RemoteConsoleServer.cs",
+              "RelativeDocumentMoniker": "EasySave.Core\\Services\\RemoteConsoleServer.cs",
+              "ToolTip": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\Services\\RemoteConsoleServer.cs",
+              "RelativeToolTip": "EasySave.Core\\Services\\RemoteConsoleServer.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAkwJ4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T10:39:09.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TcpClientService.cs",
+              "DocumentMoniker": "D:\\dl\\projetsololocal\\EasySave\\RemoteConsole\\Services\\TcpClientService.cs",
+              "RelativeDocumentMoniker": "RemoteConsole\\Services\\TcpClientService.cs",
+              "ToolTip": "D:\\dl\\projetsololocal\\EasySave\\RemoteConsole\\Services\\TcpClientService.cs",
+              "RelativeToolTip": "RemoteConsole\\Services\\TcpClientService.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAUwHQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T11:41:55.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\dl\\projetsololocal\\EasySave\\RemoteConsole\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "RemoteConsole\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\dl\\projetsololocal\\EasySave\\RemoteConsole\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "RemoteConsole\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAowEYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T13:02:32.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UILanguageManager.cs",
+              "DocumentMoniker": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Desktop\\Utils\\UILanguageManager.cs",
+              "RelativeDocumentMoniker": "EasySave.Desktop\\Utils\\UILanguageManager.cs",
+              "ToolTip": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Desktop\\Utils\\UILanguageManager.cs",
+              "RelativeToolTip": "EasySave.Desktop\\Utils\\UILanguageManager.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwEwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T14:25:45.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\dl\\projetsololocal\\EasySave\\RemoteConsole\\Utils\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "RemoteConsole\\Utils\\RelayCommand.cs",
+              "ToolTip": "D:\\dl\\projetsololocal\\EasySave\\RemoteConsole\\Utils\\RelayCommand.cs",
+              "RelativeToolTip": "RemoteConsole\\Utils\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T14:37:31.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LanguageManager.cs",
+              "DocumentMoniker": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\Services\\LanguageManager.cs",
+              "RelativeDocumentMoniker": "EasySave.Core\\Services\\LanguageManager.cs",
+              "ToolTip": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\Services\\LanguageManager.cs",
+              "RelativeToolTip": "EasySave.Core\\Services\\LanguageManager.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwCMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T16:09:54.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Differential.cs",
+              "DocumentMoniker": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\Services\\Differential.cs",
+              "RelativeDocumentMoniker": "EasySave.Core\\Services\\Differential.cs",
+              "ToolTip": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\Services\\Differential.cs",
+              "RelativeToolTip": "EasySave.Core\\Services\\Differential.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:51:45.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaveManager.cs",
+              "DocumentMoniker": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\Services\\SaveManager.cs",
+              "RelativeDocumentMoniker": "EasySave.Core\\Services\\SaveManager.cs",
+              "ToolTip": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\Services\\SaveManager.cs",
+              "RelativeToolTip": "EasySave.Core\\Services\\SaveManager.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAkwDIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T15:26:08.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePageViewModel.cs",
+              "DocumentMoniker": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Desktop\\ViewModels\\HomePageViewModel.cs",
+              "RelativeDocumentMoniker": "EasySave.Desktop\\ViewModels\\HomePageViewModel.cs",
+              "ToolTip": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Desktop\\ViewModels\\HomePageViewModel.cs",
+              "RelativeToolTip": "EasySave.Desktop\\ViewModels\\HomePageViewModel.cs",
+              "ViewState": "AgIAAE4BAAAAAAAAAAAowIEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T20:01:35.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Desktop\\Views\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "EasySave.Desktop\\Views\\HomePage.xaml.cs",
+              "ToolTip": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Desktop\\Views\\HomePage.xaml.cs",
+              "RelativeToolTip": "EasySave.Desktop\\Views\\HomePage.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T21:37:45.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JobManager.cs",
+              "DocumentMoniker": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\Services\\JobManager.cs",
+              "RelativeDocumentMoniker": "EasySave.Core\\Services\\JobManager.cs",
+              "ToolTip": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\Services\\JobManager.cs",
+              "RelativeToolTip": "EasySave.Core\\Services\\JobManager.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAkwNYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T14:43:52.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\dl\\projetsololocal\\EasySave\\RemoteConsole\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "RemoteConsole\\Views\\MainWindow.xaml",
+              "ToolTip": "D:\\dl\\projetsololocal\\EasySave\\RemoteConsole\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "RemoteConsole\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-22T12:54:05.168Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

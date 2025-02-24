@@ -1,0 +1,118 @@
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.csproj.AssemblyReference.cache
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole_MarkupCompile.cache
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole_MarkupCompile.lref
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.RemoteConsole.exe
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.RemoteConsole.deps.json
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.RemoteConsole.runtimeconfig.json
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.RemoteConsole.dll
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.RemoteConsole.pdb
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\en\EasySave.RemoteConsole.resources.dll
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\fr\EasySave.RemoteConsole.resources.dll
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\CryptoSoft.dll
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.Core.dll
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\Logger.dll
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.Core.pdb
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\CryptoSoft.pdb
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\Logger.pdb
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\en\EasySave.Core.resources.dll
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\fr\EasySave.Core.resources.dll
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\Views\MainWindow.baml
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.g.resources
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.Properties.Resource.resources
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.Properties.Resource.en.resources
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.Properties.Resource.fr.resources
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.csproj.GenerateResource.cache
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.AssemblyInfoInputs.cache
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.AssemblyInfo.cs
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.csproj.CoreCompileInputs.cache
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\en\EasySave.RemoteConsole.resources.dll
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\fr\EasySave.RemoteConsole.resources.dll
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.5CD9E4A8.Up2Date
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.dll
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\refint\EasySave.RemoteConsole.dll
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.pdb
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.genruntimeconfig.cache
+C:\Users\BlobJR\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\ref\EasySave.RemoteConsole.dll
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.RemoteConsole.exe
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.RemoteConsole.deps.json
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.RemoteConsole.runtimeconfig.json
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.RemoteConsole.dll
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.RemoteConsole.pdb
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\en\EasySave.RemoteConsole.resources.dll
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\fr\EasySave.RemoteConsole.resources.dll
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\CryptoSoft.dll
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.Core.dll
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\Logger.dll
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.Core.pdb
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\CryptoSoft.pdb
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\Logger.pdb
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\en\EasySave.Core.resources.dll
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\bin\Debug\net8.0-windows\fr\EasySave.Core.resources.dll
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.csproj.AssemblyReference.cache
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole_MarkupCompile.cache
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole_MarkupCompile.lref
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\Views\MainWindow.baml
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.g.resources
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.Properties.Resource.resources
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.Properties.Resource.en.resources
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.Properties.Resource.fr.resources
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.csproj.GenerateResource.cache
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.AssemblyInfoInputs.cache
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.AssemblyInfo.cs
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.csproj.CoreCompileInputs.cache
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.sourcelink.json
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\en\EasySave.RemoteConsole.resources.dll
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\fr\EasySave.RemoteConsole.resources.dll
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.5CD9E4A8.Up2Date
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.dll
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\refint\EasySave.RemoteConsole.dll
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.pdb
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.genruntimeconfig.cache
+C:\Users\alex-\OneDrive - Association Cesi Viacesi mail\CESI\FISA-A3\Cour\Bloc2 - Génie Logiciel\ES1.0\EasySave\RemoteConsole\obj\Debug\net8.0-windows\ref\EasySave.RemoteConsole.dll
+D:\dl\projetsololocal\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.RemoteConsole.exe
+D:\dl\projetsololocal\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.RemoteConsole.deps.json
+D:\dl\projetsololocal\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.RemoteConsole.runtimeconfig.json
+D:\dl\projetsololocal\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.RemoteConsole.dll
+D:\dl\projetsololocal\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.RemoteConsole.pdb
+D:\dl\projetsololocal\EasySave\RemoteConsole\bin\Debug\net8.0-windows\en\EasySave.RemoteConsole.resources.dll
+D:\dl\projetsololocal\EasySave\RemoteConsole\bin\Debug\net8.0-windows\fr\EasySave.RemoteConsole.resources.dll
+D:\dl\projetsololocal\EasySave\RemoteConsole\bin\Debug\net8.0-windows\CryptoSoft.dll
+D:\dl\projetsololocal\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.Core.dll
+D:\dl\projetsololocal\EasySave\RemoteConsole\bin\Debug\net8.0-windows\Logger.dll
+D:\dl\projetsololocal\EasySave\RemoteConsole\bin\Debug\net8.0-windows\EasySave.Core.pdb
+D:\dl\projetsololocal\EasySave\RemoteConsole\bin\Debug\net8.0-windows\CryptoSoft.pdb
+D:\dl\projetsololocal\EasySave\RemoteConsole\bin\Debug\net8.0-windows\Logger.pdb
+D:\dl\projetsololocal\EasySave\RemoteConsole\bin\Debug\net8.0-windows\en\EasySave.Core.resources.dll
+D:\dl\projetsololocal\EasySave\RemoteConsole\bin\Debug\net8.0-windows\fr\EasySave.Core.resources.dll
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.csproj.AssemblyReference.cache
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\App.g.cs
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole_MarkupCompile.cache
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole_MarkupCompile.lref
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\Views\MainWindow.baml
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.g.resources
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.Properties.Resource.resources
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.Properties.Resource.en.resources
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.Properties.Resource.fr.resources
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.csproj.GenerateResource.cache
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.AssemblyInfoInputs.cache
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.AssemblyInfo.cs
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.csproj.CoreCompileInputs.cache
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\en\EasySave.RemoteConsole.resources.dll
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\fr\EasySave.RemoteConsole.resources.dll
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.5CD9E4A8.Up2Date
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.dll
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\refint\EasySave.RemoteConsole.dll
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.pdb
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\EasySave.RemoteConsole.genruntimeconfig.cache
+D:\dl\projetsololocal\EasySave\RemoteConsole\obj\Debug\net8.0-windows\ref\EasySave.RemoteConsole.dll
