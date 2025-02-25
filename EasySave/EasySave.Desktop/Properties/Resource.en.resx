@@ -175,4 +175,7 @@
   <data name="JobType" xml:space="preserve">
     <value>Backup Type</value>
   </data>
+  <data name="OpenSaveConfig" xml:space="preserve">
+    <value>⚙️Configure save's parameters</value>
+  </data>
 </root>

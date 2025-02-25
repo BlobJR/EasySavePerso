@@ -10,6 +10,9 @@
     <Compile Update="Views\AddJobPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\BackupConfigPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Properties\Resource.en.resx">
@@ -18,6 +21,9 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="Views\AddJobPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\BackupConfigPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\HomePage.xaml">

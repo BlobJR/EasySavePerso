@@ -16,8 +16,8 @@ namespace EasySave.Core.Services
         private readonly ConcurrentDictionary<string, (Thread thread, ManualResetEvent pauseEvent, CancellationTokenSource cancelToken)> activeJobs = new();
         private readonly SemaphoreSlim largeFileSemaphore = new(1, 1);
         private readonly object priorityLock = new();
-        private readonly int largeFileSizeLimit = 50000; // Taille max d'un gros fichier en Ko
-        private readonly List<string> priorityExtensions = new() { ".txt", ".pdf", ".docx" };
+        public  int largeFileSizeLimit = 50000; // Taille max d'un gros fichier en Ko
+        public  List<string> priorityExtensions = new() { ".txt", ".pdf", ".docx" };
 
 
         public void StartJob(Job job)

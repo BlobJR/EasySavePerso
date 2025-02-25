@@ -20,6 +20,8 @@ namespace EasySave.Desktop.Views
             DataContext = viewModel;
             viewModel.RequestAddJobWindow += OnRequestAddJobWindow;
             viewModel.RequestEditJobWindow += OnRequestEditJobWindow;
+            viewModel.RequestBackupConfigWindow += OnRequestBackupConfigWindow;
+
             languageManager = (UILanguageManager)Resources["LangManager"];
         }
 
@@ -52,6 +54,12 @@ namespace EasySave.Desktop.Views
             ModifyPage modifyPage = new(viewModel.SelectedJob);
             modifyPage.ShowDialog();
         }
+        private void OnRequestBackupConfigWindow(object sender, EventArgs e)
+        {
+            BackupConfigPage configWindow = new BackupConfigPage();
+            configWindow.ShowDialog();
+        }
+
 
         /// <summary>
         /// Closes the application when the Quit button is clicked.

@@ -396,3 +396,5 @@ C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\EasySave.Desktop\obj
 C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\EasySave.Desktop\obj\Debug\net8.0-windows\EasySave.Desktop.pdb
 C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\EasySave.Desktop\obj\Debug\net8.0-windows\EasySave.Desktop.genruntimeconfig.cache
 C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\EasySave.Desktop\obj\Debug\net8.0-windows\ref\EasySave.Desktop.dll
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\EasySave.Desktop\obj\Debug\net8.0-windows\Views\BackupConfigPage.baml
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\EasySave.Desktop\obj\Debug\net8.0-windows\Views\BackupConfigPage.g.cs

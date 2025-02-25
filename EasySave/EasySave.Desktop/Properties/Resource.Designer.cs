@@ -124,6 +124,24 @@ namespace EasySave.Desktop.Properties {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Logiciels métier bloquant la sauvegarde (séparés par des virgules) :.
+        /// </summary>
+        internal static string BusinessSoftwareLabel {
+            get {
+                return ResourceManager.GetString("BusinessSoftwareLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Annuler.
+        /// </summary>
+        internal static string CancelButtonLabel {
+            get {
+                return ResourceManager.GetString("CancelButtonLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Logs.
         /// </summary>
         internal static string ConsoleLogTitle {
@@ -228,6 +246,42 @@ namespace EasySave.Desktop.Properties {
         internal static string JobType {
             get {
                 return ResourceManager.GetString("JobType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Taille maximale d&apos;un gros fichier (en Ko) :.
+        /// </summary>
+        internal static string LargeFileSizeLimitLabel {
+            get {
+                return ResourceManager.GetString("LargeFileSizeLimitLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à ⚙️Configurer les paramettres des sauvegardes.
+        /// </summary>
+        internal static string OpenSaveConfig {
+            get {
+                return ResourceManager.GetString("OpenSaveConfig", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Extensions prioritaires (séparées par des virgules) :.
+        /// </summary>
+        internal static string PriorityExtensionsLabel {
+            get {
+                return ResourceManager.GetString("PriorityExtensionsLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Enregistrer.
+        /// </summary>
+        internal static string SaveButtonLabel {
+            get {
+                return ResourceManager.GetString("SaveButtonLabel", resourceCulture);
             }
         }
     }

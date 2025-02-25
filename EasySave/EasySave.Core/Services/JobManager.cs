@@ -26,6 +26,7 @@ namespace EasySave.Core.Services
         /// Used for UI updates or logging purposes.
         /// </summary>
         public event Action<string>? OnMessageLogged;
+        public string[] businessProcesses;
 
         /// <summary>
         /// Private constructor (Singleton pattern).
@@ -151,7 +152,7 @@ namespace EasySave.Core.Services
                 return new List<Job>();
             }
 
-            // ✅ If in console mode, log the list of jobs
+            // If in console mode, log the list of jobs
             if (isConsoleMode)
             {
                 OnMessageLogged?.Invoke("\n📁 " + LanguageManager.GetString("JobList") + ":\n");

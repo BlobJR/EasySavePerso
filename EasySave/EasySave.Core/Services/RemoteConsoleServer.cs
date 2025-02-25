@@ -275,6 +275,11 @@ namespace EasySave.Core.Services
         }
         public void StopServer()
         {
+            if (_listener == null)
+            {
+                LogMessage(LanguageManager.GetString("NoServerRunning"));
+                return;
+            }
             try
             {
                 LogMessage(LanguageManager.GetString("ServerStopping"));
@@ -285,7 +290,7 @@ namespace EasySave.Core.Services
                     try
                     {
                         client.Shutdown(SocketShutdown.Both);
-                        client.Close();
+                        client.Dispose();
                     }
                     catch { }
                 }

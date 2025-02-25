@@ -156,6 +156,12 @@
   <data name="CompleteSaveSuccess" xml:space="preserve">
     <value>✅ Full backup completed.</value>
   </data>
+  <data name="ConfigSavedSuccess" xml:space="preserve">
+    <value>Configuration saved successfully!</value>
+  </data>
+  <data name="ConfigSaveError" xml:space="preserve">
+    <value>Error while saving: {0}</value>
+  </data>
   <data name="ConfigureEncryption" xml:space="preserve">
     <value> Configure encryption</value>
   </data>
@@ -273,6 +279,9 @@
   <data name="EnterSource" xml:space="preserve">
     <value>Source Path : </value>
   </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
   <data name="ExecuteJob" xml:space="preserve">
     <value> Execute a Job</value>
   </data>
@@ -378,6 +387,9 @@
   <data name="JobUpdated" xml:space="preserve">
     <value>🔄 Job '{0}' successfully updated : {1} ({2}) - Source: {3} → Destination: {4}</value>
   </data>
+  <data name="LanguageChanged" xml:space="preserve">
+    <value>Language changed</value>
+  </data>
   <data name="ListJobs" xml:space="preserve">
     <value> List the Jobs</value>
   </data>
@@ -426,6 +438,12 @@
   <data name="NoJobsToExecute" xml:space="preserve">
     <value>Error no job will be executed</value>
   </data>
+  <data name="NoServerRunning" xml:space="preserve">
+    <value>No server is currently running!</value>
+  </data>
+  <data name="OpenSaveConfig" xml:space="preserve">
+    <value>⚙️Configure save's parameters</value>
+  </data>
   <data name="RemoveJob" xml:space="preserve">
     <value> Delete a Job</value>
   </data>
@@ -456,8 +474,26 @@
   <data name="ServerStarted" xml:space="preserve">
     <value> Serveur démarré sur le port {0}.</value>
   </data>
+  <data name="ServerStopError" xml:space="preserve">
+    <value>An error occurred while stopping the server : {0}</value>
+  </data>
+  <data name="ServerStopped" xml:space="preserve">
+    <value>The server is stopped</value>
+  </data>
+  <data name="ServerStopping" xml:space="preserve">
+    <value>Server stopping....</value>
+  </data>
   <data name="SourceDirectoryNotFound" xml:space="preserve">
     <value>❌ The source directory does not exist.</value>
+  </data>
+  <data name="StartServer" xml:space="preserve">
+    <value>🚀 Start Server</value>
+  </data>
+  <data name="StopServer" xml:space="preserve">
+    <value>🛑 Stop Server</value>
+  </data>
+  <data name="SuccessTitle" xml:space="preserve">
+    <value>Sucess!</value>
   </data>
   <data name="UnknownAction" xml:space="preserve">
     <value> Unknown action: {0}</value>

@@ -6,6 +6,7 @@ using System.Windows.Input;
 using EasySave.Core.Models;
 using EasySave.Core.Services;
 using EasySave.Desktop.Utils;
+using EasySave.Desktop.Views;
 using Logger.Services;
 
 namespace EasySave.Desktop.ViewModels
@@ -63,7 +64,9 @@ namespace EasySave.Desktop.ViewModels
                 OnPropertyChanged(nameof(ServerButtonText)); // Met à jour le texte du bouton
             }
         }
-        public string ServerButtonText => IsServerRunning ? "🛑 Arrêter le Serveur" : "🚀 Démarrer le Serveur";
+        public string ServerButtonText => IsServerRunning
+      ? LanguageManager.GetString("StopServer")  
+      : LanguageManager.GetString("StartServer"); 
 
         public ICommand AddJobCommand { get; }
         public ICommand EditJobCommand { get; }
@@ -74,14 +77,17 @@ namespace EasySave.Desktop.ViewModels
         public ICommand SetLogFormatCommand { get; }
         public ICommand ConfigureEncryptionCommand { get; }
         public ICommand DecryptFilesCommand { get; }
-        public ICommand StartServerCommand { get; }
+        public ICommand ToggleServerCommand { get; }
 
         public event EventHandler RequestAddJobWindow;
 
         public event EventHandler RequestEditJobWindow;
+        public event EventHandler RequestBackupConfigWindow;
         public ICommand PauseJobCommand { get; }
         public ICommand ResumeJobCommand { get; }
         public ICommand StopJobCommand { get; }
+        public ICommand OpenBackupConfigCommand { get; }
+
 
         public HomePageViewModel()
         {
@@ -98,10 +104,11 @@ namespace EasySave.Desktop.ViewModels
             SetLogFormatCommand = new RelayCommand(param => SetLogFormat(param?.ToString()));
             ConfigureEncryptionCommand = new RelayCommand(_ => ConfigureEncryption());
             DecryptFilesCommand = new RelayCommand(_ => DecryptFiles());
-            StartServerCommand = new RelayCommand(_ => StartServer());
-            PauseJobCommand = new RelayCommand(_ => PauseJob(), _ => SelectedJobs.Count > 0);
-            ResumeJobCommand = new RelayCommand(_ => ResumeJob(), _ => SelectedJobs.Count > 0);
-            StopJobCommand = new RelayCommand(_ => StopJob(), _ => SelectedJobs.Count > 0);
+            ToggleServerCommand = new RelayCommand(_ => ToggleServer()); 
+            PauseJobCommand = new RelayCommand(_ => PauseJob());
+            ResumeJobCommand = new RelayCommand(_ => ResumeJob());
+            StopJobCommand = new RelayCommand(_ => StopJob());
+            OpenBackupConfigCommand = new RelayCommand(_ => OnRequestBackupConfigWindow());
 
 
             jobManager.JobAdded += OnJobAdded;
@@ -134,6 +141,10 @@ namespace EasySave.Desktop.ViewModels
         private void OnRequestAddJobWindow()
         {
             RequestAddJobWindow?.Invoke(this, EventArgs.Empty);
+        }
+        private void OnRequestBackupConfigWindow()
+        {
+            RequestBackupConfigWindow?.Invoke(this, EventArgs.Empty);
         }
 
         /// <summary>
@@ -193,10 +204,15 @@ namespace EasySave.Desktop.ViewModels
         /// </summary>
         private void ExecuteJob()
         {
+            if (JobManager.IsBusinessSoftwareRunning())
+            {
+                AppendConsoleLog(LanguageManager.GetString("BusinessSoftwareRunning"));
+                return ;
+            }
             int index = jobManager.ListJobs().FindIndex(j => j.Name == SelectedJob.Name);
             if (index != -1)
             {
-                jobManager.ExecuteJob(index);
+               jobManager.ExecuteJob(index);
             }
         }
 
@@ -206,13 +222,17 @@ namespace EasySave.Desktop.ViewModels
         /// </summary>
         private void ExecuteMultipleJobs()
         {
+            if (JobManager.IsBusinessSoftwareRunning())
+            {
+                AppendConsoleLog(LanguageManager.GetString("BusinessSoftwareRunning"));
+                return;
+            }
             // Ensure at least one job is selected
             if (SelectedJobs.Count == 0)
             {
                 MessageBox.Show(LanguageManager.GetString("SelectAtLeastOneJob"), "Avertissement", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
-
             // Retrieve indices of selected jobs
             List<int> indices = jobManager.ListJobs()
                 .Select((j, i) => new { Job = j, Index = i })
@@ -358,15 +378,46 @@ namespace EasySave.Desktop.ViewModels
                 AppendConsoleLog(LanguageManager.GetString("DecryptionNoAction"));
             }
         }
+        private void ToggleServer()
+        {
+            if (IsServerRunning)
+            {
+                StopServer();
+            }
+            else
+            {
+                StartServer();
+            }
+        }
+
         private void StartServer()
         {
+            if (IsServerRunning)
+            {
+                AppendConsoleLog(LanguageManager.GetString("ServerAlreadyRunning"));
+                return;
+            }
+
             Thread serverThread = new Thread(() =>
             {
-                RemoteConsoleServer.Instance.StartServer(5000);
+                remoteConsoleServer.StartServer(5000);
             });
 
             serverThread.IsBackground = true;
             serverThread.Start();
+            IsServerRunning = true;
+        }
+
+        private void StopServer()
+        {
+            if (!IsServerRunning)
+            {
+                AppendConsoleLog(LanguageManager.GetString("NoServerRunning"));
+                return;
+            }
+
+            remoteConsoleServer.StopServer();
+            IsServerRunning = false;
         }
         private void PauseJob()
         {
@@ -382,7 +433,6 @@ namespace EasySave.Desktop.ViewModels
         {
             saveManager.StopJob(SelectedJobs.ToList());
         }
-
-
+    
     }
 }

@@ -34,6 +34,12 @@ namespace EasySave.Desktop.Utils
         public string ExecuteSelectedJobLabel => Resource.ExecuteSelectedJobLabel;
         public string EncryptionConfigurationLabel => Resource.EncryptionConfigurationLabel;
         public string DecryptLabel => Resource.DecryptLabel;
+        public string OpenSaveConfig => Resource.OpenSaveConfig;
+        public string CancelButtonLabel => Resource.CancelButtonLabel;
+        public string SaveButtonLabel => Resource.SaveButtonLabel;
+        public string BusinessSoftwareLabel => Resource.BusinessSoftwareLabel;
+        public string LargeFileSizeLimitLabel => Resource.LargeFileSizeLimitLabel;
+        public string PriorityExtensionsLabel => Resource.PriorityExtensionsLabel;
 
 
         public event PropertyChangedEventHandler PropertyChanged;

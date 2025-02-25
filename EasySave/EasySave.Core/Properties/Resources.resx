@@ -156,6 +156,12 @@
   <data name="CompleteSaveSuccess" xml:space="preserve">
     <value>✅ Sauvegarde complète terminée.</value>
   </data>
+  <data name="ConfigSavedSuccess" xml:space="preserve">
+    <value>Configuration sauvegardée avec succès !</value>
+  </data>
+  <data name="ConfigSaveError" xml:space="preserve">
+    <value>Erreur lors de la sauvegarde : {0}</value>
+  </data>
   <data name="ConfigureEncryption" xml:space="preserve">
     <value> Configurer le chiffrement</value>
   </data>
@@ -273,6 +279,9 @@
   <data name="EnterSource" xml:space="preserve">
     <value>Dossier Source : </value>
   </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
   <data name="ExecuteJob" xml:space="preserve">
     <value> Exécuter un Job</value>
   </data>
@@ -378,6 +387,9 @@
   <data name="JobUpdated" xml:space="preserve">
     <value>🔄 Job '{0}' mis à jour : {1} ({2}) - Source: {3} → Destination: {4}</value>
   </data>
+  <data name="LanguageChanged" xml:space="preserve">
+    <value>Language modifié</value>
+  </data>
   <data name="ListJobs" xml:space="preserve">
     <value> Lister les Jobs</value>
   </data>
@@ -426,6 +438,12 @@
   <data name="NoJobsToExecute" xml:space="preserve">
     <value>Erreur aucun jobs ne sera éxecuté</value>
   </data>
+  <data name="NoServerRunning" xml:space="preserve">
+    <value>Aucun serveur n'est en cour d'éxecution!</value>
+  </data>
+  <data name="OpenSaveConfig" xml:space="preserve">
+    <value>⚙️Configurer les paramettres des sauvegardes</value>
+  </data>
   <data name="RemoveJob" xml:space="preserve">
     <value> Supprimer un Job</value>
   </data>
@@ -456,8 +474,26 @@
   <data name="ServerStarted" xml:space="preserve">
     <value> Serveur démarré sur le port {0}.</value>
   </data>
+  <data name="ServerStopError" xml:space="preserve">
+    <value>Une erreur s'est produite lors de l'arrêt du serveur: {0}</value>
+  </data>
+  <data name="ServerStopped" xml:space="preserve">
+    <value>Le serveur est arrêté</value>
+  </data>
+  <data name="ServerStopping" xml:space="preserve">
+    <value>Arrêt du serveur ...</value>
+  </data>
   <data name="SourceDirectoryNotFound" xml:space="preserve">
     <value>❌ Le répertoire source n'existe pas.</value>
+  </data>
+  <data name="StartServer" xml:space="preserve">
+    <value>🚀 Démarrer le Serveur</value>
+  </data>
+  <data name="StopServer" xml:space="preserve">
+    <value>🛑 Arrêter le Serveur</value>
+  </data>
+  <data name="SuccessTitle" xml:space="preserve">
+    <value>Succès!</value>
   </data>
   <data name="UnknownAction" xml:space="preserve">
     <value>Action inconnue : {0}</value>
