@@ -59,7 +59,7 @@
 
             <StackPanel Orientation="Horizontal" Grid.Column="0" HorizontalAlignment="Left">
                 <Button Content="JSON" Command="{Binding SetLogFormatCommand}" CommandParameter="JSON" Background="Gray" Width="60" Height="30"/>
-                <Button Content="XML" Command="{Binding SetLogFormatCommand}" CommandParameter="XAML" Background="Gray" Width="60" Height="30"/>
+                <Button Content="XML" Command="{Binding SetLogFormatCommand}" CommandParameter="XML" Background="Gray" Width="60" Height="30"/>
             </StackPanel>
 
             <TextBlock Text="EasySave" FontFamily="{StaticResource OutfitThin}" FontSize="40" FontWeight="Bold" 

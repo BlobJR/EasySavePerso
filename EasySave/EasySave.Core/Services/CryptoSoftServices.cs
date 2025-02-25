@@ -20,7 +20,7 @@ namespace EasySave.Core.Services
 
             try
             {
-                // 🔹 Encrypt the file
+                //Encrypt the file
                 int encryptionTime = EncryptAndWriteToFile(filePath);
                 OnMessageLogged?.Invoke(LanguageManager.GetString("FileEncrypted", filePath, encryptionTime));
                 return encryptionTime;

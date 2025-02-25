@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Text.Json;
 using System.Xml.Serialization;
 using Logger.Models;
@@ -10,54 +12,103 @@ namespace Logger.Services
         private static Logger instance;
         public static Logger Instance => instance ??= new Logger();
 
+        private readonly string logDirectory;
+
+        // 🔹 Constructeur : Initialise le dossier de logs
+        private Logger()
+        {
+            ConfigManager config = new ConfigManager();
+            config.LoadConfig();
+            logDirectory = config.GetLogFilePath();
+
+            if (!Directory.Exists(logDirectory))
+            {
+                Directory.CreateDirectory(logDirectory); // 🔹 Crée le dossier s'il n'existe pas
+            }
+        }
+
         /// <summary>
-        /// Format a JSON with the necessary attributes.
+        /// Enregistre un transfert de fichier dans les logs.
         /// </summary>
-        /// <param name="timeStamp">The time when the file was copied.</param>
-        /// <param name="saveName">The name of the save.</param>
-        /// <param name="fileSize">The file size.</param>
-        /// <param name="fileTransferTime">The time it took for the file to copy.</param>
-        /// <param name="fileSource">The file source.</param>
-        /// <param name="fileTarget">The file destination.</param>
         public void LogFileTransfert(LoggerModel loggerModel)
         {
             ConfigManager config = new ConfigManager();
             config.LoadConfig();
-            string logFormat = config.GetLogFormat();
+            string logFormat = config.GetLogFormat().ToLower();
 
-            string logContent = logFormat switch
+            // 🔹 Vérification du format supporté
+            if (logFormat != "json" && logFormat != "xml")
             {
-                "xml" => SerializeToXml(loggerModel),
-                _ => JsonSerializer.Serialize(loggerModel, new JsonSerializerOptions { WriteIndented = true }) // Par défaut JSON
-            };
-
-            WriteLogToFile(logContent, logFormat);
-        }
-
-        private string SerializeToXml(LoggerModel loggerModel)
-        {
-            using StringWriter stringWriter = new StringWriter();
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(LoggerModel));
-            xmlSerializer.Serialize(stringWriter, loggerModel);
-            return stringWriter.ToString();
-        }
-
-        private void WriteLogToFile(string logContent, string format)
-        {
-            ConfigManager config = new ConfigManager();
-            string logPath = config.GetLogFilePath();
-
-            if (!Directory.Exists(logPath))
-            {
-                Directory.CreateDirectory(logPath);
+                throw new ArgumentException("Format de log non supporté. Utilisez 'json' ou 'xml'.");
             }
 
-            string fileExtension = format == "xml" ? "xml" : "json";
-            string fileNameLog = $"Log-{DateTime.Now:yyyy-MM-dd}.{fileExtension}";
-            string filePathLog = Path.Combine(logPath, fileNameLog);
-
-            File.AppendAllText(filePathLog, logContent + Environment.NewLine);
+            SaveLog(loggerModel, logFormat);
         }
 
+        /// <summary>
+        /// Sérialise un log en JSON ou XML et l'enregistre.
+        /// </summary>
+        private void SaveLog(LoggerModel log, string format)
+        {
+            string logFilePath = GetLogFilePath(format);
+            List<LoggerModel> logs = LoadExistingLogs(logFilePath, format);
+
+            logs.Add(log); // 🔹 Ajoute le nouveau log à la liste
+
+            // 🔹 Écriture du fichier JSON ou XML
+            if (format == "json")
+            {
+                string json = JsonSerializer.Serialize(logs, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText(logFilePath, json);
+            }
+            else
+            {
+                using (StreamWriter writer = new StreamWriter(logFilePath, false)) // 🔹 `false` pour réécrire sans dupliquer
+                {
+                    XmlSerializer serializer = new XmlSerializer(typeof(List<LoggerModel>));
+                    serializer.Serialize(writer, logs);
+                }
+            }
+        }
+
+        /// <summary>
+        /// Récupère le chemin du fichier log en fonction du format (JSON/XML).
+        /// </summary>
+        private string GetLogFilePath(string format)
+        {
+            string extension = format == "xml" ? "xml" : "json";
+            string fileName = $"Log-{DateTime.Now:yyyy-MM-dd}.{extension}";
+            return Path.Combine(logDirectory, fileName);
+        }
+
+        /// <summary>
+        /// Charge les logs existants pour éviter d'écraser les anciens.
+        /// </summary>
+        private List<LoggerModel> LoadExistingLogs(string filePath, string format)
+        {
+            if (!File.Exists(filePath))
+                return new List<LoggerModel>();
+
+            try
+            {
+                if (format == "json")
+                {
+                    string json = File.ReadAllText(filePath);
+                    return JsonSerializer.Deserialize<List<LoggerModel>>(json) ?? new List<LoggerModel>();
+                }
+                else
+                {
+                    using (StreamReader reader = new StreamReader(filePath))
+                    {
+                        XmlSerializer serializer = new XmlSerializer(typeof(List<LoggerModel>));
+                        return (List<LoggerModel>)serializer.Deserialize(reader) ?? new List<LoggerModel>();
+                    }
+                }
+            }
+            catch
+            {
+                return new List<LoggerModel>(); // 🔹 En cas d'erreur, retourne une liste vide
+            }
+        }
     }
 }

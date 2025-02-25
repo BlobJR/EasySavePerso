@@ -3,24 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.desktop\\views\\backupconfigpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|solutionrelative:easysave.desktop\\views\\backupconfigpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{0F14D1D7-EEFF-4EEE-B8B2-F19FACA7DDC1}|Logger\\Logger.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\logger\\services\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F14D1D7-EEFF-4EEE-B8B2-F19FACA7DDC1}|Logger\\Logger.csproj|solutionrelative:logger\\services\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.desktop\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|solutionrelative:easysave.desktop\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.core\\services\\differential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|solutionrelative:easysave.core\\services\\differential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.desktop\\viewmodels\\backupconfigviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|solutionrelative:easysave.desktop\\viewmodels\\backupconfigviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.core\\services\\complete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|solutionrelative:easysave.core\\services\\complete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E8B84F-6662-4B83-B4DC-1C8B30ED1507}|CryptoSoft\\CryptoSoft.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\cryptosoft\\cryptosoft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E8B84F-6662-4B83-B4DC-1C8B30ED1507}|CryptoSoft\\CryptoSoft.csproj|solutionrelative:cryptosoft\\cryptosoft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.core\\services\\cryptosoftservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|solutionrelative:easysave.core\\services\\cryptosoftservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.desktop\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|solutionrelative:easysave.desktop\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.desktop\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|solutionrelative:easysave.desktop\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.desktop\\utils\\uilanguagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|solutionrelative:easysave.desktop\\utils\\uilanguagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.desktop\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|solutionrelative:easysave.desktop\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.desktop\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|solutionrelative:easysave.desktop\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.core\\services\\remoteconsoleserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|solutionrelative:easysave.core\\services\\remoteconsoleserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.desktop\\views\\backupconfigpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|solutionrelative:easysave.desktop\\views\\backupconfigpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.desktop\\viewmodels\\backupconfigviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|solutionrelative:easysave.desktop\\viewmodels\\backupconfigviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52BDF8C2-4660-4C70-88FB-EBBDB8CB6967}|EasySave.Desktop\\EasySave.Desktop.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.desktop\\views\\backupconfigpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{D63169CC-8F35-409D-878D-D4EA99870417}|EasySave.Command\\EasySave.Command.csproj|solutionrelative:easysave.command\\viewmodels\\jobviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.core\\services\\complete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|solutionrelative:easysave.core\\services\\complete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|c:\\users\\alex-\\downloads\\projetperso\\easysaveperso\\easysave\\easysave.core\\services\\isave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B756D19-32F1-4EF0-A6CB-70EADE94B3E4}|EasySave.Core\\EasySave.Core.csproj|solutionrelative:easysave.core\\services\\isave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -62,36 +86,37 @@
       "DocumentGroups": [
         {
           "DockedHeight": 142,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BackupConfigPage.xaml",
-              "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Desktop\\Views\\BackupConfigPage.xaml",
-              "RelativeDocumentMoniker": "EasySave.Desktop\\Views\\BackupConfigPage.xaml",
-              "ToolTip": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Desktop\\Views\\BackupConfigPage.xaml",
-              "RelativeToolTip": "EasySave.Desktop\\Views\\BackupConfigPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-25T10:32:43.749Z",
+              "DocumentIndex": 5,
+              "Title": "HomePageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Desktop\\ViewModels\\HomePageViewModel.cs",
+              "RelativeDocumentMoniker": "EasySave.Desktop\\ViewModels\\HomePageViewModel.cs",
+              "ToolTip": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Desktop\\ViewModels\\HomePageViewModel.cs",
+              "RelativeToolTip": "EasySave.Desktop\\ViewModels\\HomePageViewModel.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAIAywF4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T12:13:55.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "UILanguageManager.cs",
               "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Desktop\\Utils\\UILanguageManager.cs",
               "RelativeDocumentMoniker": "EasySave.Desktop\\Utils\\UILanguageManager.cs",
               "ToolTip": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Desktop\\Utils\\UILanguageManager.cs",
               "RelativeToolTip": "EasySave.Desktop\\Utils\\UILanguageManager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA5wCkAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-22T14:25:45.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "HomePage.xaml",
               "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Desktop\\Views\\HomePage.xaml",
               "RelativeDocumentMoniker": "EasySave.Desktop\\Views\\HomePage.xaml",
@@ -103,20 +128,109 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Complete.cs",
+              "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\Services\\Complete.cs",
+              "RelativeDocumentMoniker": "EasySave.Core\\Services\\Complete.cs",
+              "ToolTip": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\Services\\Complete.cs",
+              "RelativeToolTip": "EasySave.Core\\Services\\Complete.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAUwFkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:51:44.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CryptoSoft.cs",
+              "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\CryptoSoft\\CryptoSoft.cs",
+              "RelativeDocumentMoniker": "CryptoSoft\\CryptoSoft.cs",
+              "ToolTip": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\CryptoSoft\\CryptoSoft.cs",
+              "RelativeToolTip": "CryptoSoft\\CryptoSoft.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowDsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T12:21:57.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "HomePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Desktop\\Views\\HomePage.xaml.cs",
               "RelativeDocumentMoniker": "EasySave.Desktop\\Views\\HomePage.xaml.cs",
               "ToolTip": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Desktop\\Views\\HomePage.xaml.cs",
               "RelativeToolTip": "EasySave.Desktop\\Views\\HomePage.xaml.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwDkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T09:35:18.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Differential.cs",
+              "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\Services\\Differential.cs",
+              "RelativeDocumentMoniker": "EasySave.Core\\Services\\Differential.cs",
+              "ToolTip": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\Services\\Differential.cs",
+              "RelativeToolTip": "EasySave.Core\\Services\\Differential.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAUwGwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T12:56:18.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\Logger\\Services\\Logger.cs",
+              "RelativeDocumentMoniker": "Logger\\Services\\Logger.cs",
+              "ToolTip": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\Logger\\Services\\Logger.cs",
+              "RelativeToolTip": "Logger\\Services\\Logger.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAkwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:17:08.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CryptoSoftServices.cs",
+              "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\Services\\CryptoSoftServices.cs",
+              "RelativeDocumentMoniker": "EasySave.Core\\Services\\CryptoSoftServices.cs",
+              "ToolTip": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\Services\\CryptoSoftServices.cs",
+              "RelativeToolTip": "EasySave.Core\\Services\\CryptoSoftServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T12:29:15.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BackupConfigPage.xaml",
+              "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Desktop\\Views\\BackupConfigPage.xaml",
+              "RelativeDocumentMoniker": "EasySave.Desktop\\Views\\BackupConfigPage.xaml",
+              "ToolTip": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Desktop\\Views\\BackupConfigPage.xaml",
+              "RelativeToolTip": "EasySave.Desktop\\Views\\BackupConfigPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-25T10:32:43.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RemoteConsoleServer.cs",
+              "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\Services\\RemoteConsoleServer.cs",
+              "RelativeDocumentMoniker": "EasySave.Core\\Services\\RemoteConsoleServer.cs",
+              "ToolTip": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\Services\\RemoteConsoleServer.cs",
+              "RelativeToolTip": "EasySave.Core\\Services\\RemoteConsoleServer.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAowFcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:29:55.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "BackupConfigViewModel.cs",
               "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Desktop\\ViewModels\\BackupConfigViewModel.cs",
               "RelativeDocumentMoniker": "EasySave.Desktop\\ViewModels\\BackupConfigViewModel.cs",
@@ -124,12 +238,11 @@
               "RelativeToolTip": "EasySave.Desktop\\ViewModels\\BackupConfigViewModel.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowDIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:32:55.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:32:55.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "BackupConfigPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Desktop\\Views\\BackupConfigPage.xaml.cs",
               "RelativeDocumentMoniker": "EasySave.Desktop\\Views\\BackupConfigPage.xaml.cs",
@@ -137,12 +250,11 @@
               "RelativeToolTip": "EasySave.Desktop\\Views\\BackupConfigPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:40:00.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:40:00.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "AddJobPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Desktop\\Views\\AddJobPage.xaml.cs",
               "RelativeDocumentMoniker": "EasySave.Desktop\\Views\\AddJobPage.xaml.cs",
@@ -150,12 +262,11 @@
               "RelativeToolTip": "EasySave.Desktop\\Views\\AddJobPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:17:30.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:17:30.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "SaveManager.cs",
               "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\Services\\SaveManager.cs",
               "RelativeDocumentMoniker": "EasySave.Core\\Services\\SaveManager.cs",
@@ -163,12 +274,11 @@
               "RelativeToolTip": "EasySave.Core\\Services\\SaveManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:07:35.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:07:35.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "AddJobViewModel.cs",
               "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Desktop\\ViewModels\\AddJobViewModel.cs",
               "RelativeDocumentMoniker": "EasySave.Desktop\\ViewModels\\AddJobViewModel.cs",
@@ -176,12 +286,11 @@
               "RelativeToolTip": "EasySave.Desktop\\ViewModels\\AddJobViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T10:19:38.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:19:38.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "JobViewModel.cs",
               "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Command\\ViewModels\\JobViewModel.cs",
               "RelativeDocumentMoniker": "EasySave.Command\\ViewModels\\JobViewModel.cs",
@@ -189,12 +298,11 @@
               "RelativeToolTip": "EasySave.Command\\ViewModels\\JobViewModel.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAA7wFIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T09:47:08.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T09:47:08.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "UILanguageManager.cs",
               "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\RemoteConsole\\Utils\\UILanguageManager.cs",
               "RelativeDocumentMoniker": "RemoteConsole\\Utils\\UILanguageManager.cs",
@@ -206,19 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Complete.cs",
-              "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\Services\\Complete.cs",
-              "RelativeDocumentMoniker": "EasySave.Core\\Services\\Complete.cs",
-              "ToolTip": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\Services\\Complete.cs",
-              "RelativeToolTip": "EasySave.Core\\Services\\Complete.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA+wB8AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T19:51:44.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "ISave.cs",
               "DocumentMoniker": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\Services\\ISave.cs",
               "RelativeDocumentMoniker": "EasySave.Core\\Services\\ISave.cs",
