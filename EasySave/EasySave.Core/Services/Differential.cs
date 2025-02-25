@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading;
@@ -15,32 +14,32 @@ namespace EasySave.Core.Services
         private readonly SemaphoreSlim largeFileSemaphore;
         private readonly List<string> priorityExtensions;
         private readonly object priorityLock;
-        //private readonly ManualResetEvent pauseEvent;
-        //private readonly CancellationToken token;
-        public Differential(int largeFileSizeLimit, SemaphoreSlim largeFileSemaphore, List<string> priorityExtensions, object priorityLock)
+        private readonly ManualResetEvent pauseEvent;
+        private readonly CancellationToken token;
+
+        public Differential(int largeFileSizeLimit, SemaphoreSlim largeFileSemaphore, List<string> priorityExtensions, object priorityLock, ManualResetEvent pauseEvent, CancellationToken token)
         {
             this.largeFileSizeLimit = largeFileSizeLimit;
             this.largeFileSemaphore = largeFileSemaphore;
             this.priorityExtensions = priorityExtensions;
             this.priorityLock = priorityLock;
-            //this.pauseEvent = pauseEvent;
-            //this.token = token;
+            this.pauseEvent = pauseEvent;
+            this.token = token;
         }
 
         public void ExecuteSave(Job job)
         {
             OnMessageLogged?.Invoke($"📂 Starting differential save: {job.SourcePath} → {job.DestinationPath}");
 
-            // Récupération des fichiers à sauvegarder
             string[] files = Directory.GetFiles(job.SourcePath, "*", SearchOption.AllDirectories);
-            // Séparation des fichiers prioritaires et normaux
             var priorityQueue = new Queue<string>(files.Where(f => priorityExtensions.Contains(Path.GetExtension(f).ToLower())));
             var normalQueue = new Queue<string>(files.Where(f => !priorityExtensions.Contains(Path.GetExtension(f).ToLower())));
 
             while (priorityQueue.Count > 0 || normalQueue.Count > 0)
             {
-                //pauseEvent.WaitOne();
-                //if (token.IsCancellationRequested) return;
+                if (token.IsCancellationRequested) return;
+                pauseEvent.WaitOne();
+
                 string file;
                 bool isPriority = false;
 
@@ -57,7 +56,7 @@ namespace EasySave.Core.Services
                     }
                 }
 
-                if (!IsFileModified(file, job)) // Vérifier si le fichier a été modifié
+                if (!IsFileModified(file, job))
                 {
                     continue;
                 }
@@ -77,12 +76,15 @@ namespace EasySave.Core.Services
 
         private void CopyFile(string file, Job job, bool isPriority)
         {
-            long fileSize = new FileInfo(file).Length / 1024; // Taille en Ko
+            if (token.IsCancellationRequested) return;
+            pauseEvent.WaitOne();
+
+            long fileSize = new FileInfo(file).Length / 1024;
             DateTime startTime = DateTime.Now;
 
             if (fileSize > largeFileSizeLimit)
             {
-                largeFileSemaphore.Wait(); // Empêcher plusieurs fichiers volumineux de se copier en même temps
+                largeFileSemaphore.Wait();
             }
 
             try
@@ -97,10 +99,7 @@ namespace EasySave.Core.Services
 
                 File.Copy(file, destinationFile, true);
 
-                // Chiffrement du fichier après la copie
                 int encryptionTime = CryptoService.EncryptFile(destinationFile);
-
-                // Enregistrement des logs du transfert
                 Logger.Services.Logger.Instance.LogFileTransfert(new Logger.Models.LoggerModel
                 {
                     TimeStamp = startTime,
@@ -122,7 +121,7 @@ namespace EasySave.Core.Services
             {
                 if (fileSize > largeFileSizeLimit)
                 {
-                    largeFileSemaphore.Release(); // Libérer le sémaphore après transfert
+                    largeFileSemaphore.Release();
                 }
             }
         }

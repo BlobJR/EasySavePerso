@@ -103,3 +103,15 @@ D:\dl\projetsololocal\EasySave\Logger\obj\Debug\net8.0\Logger.dll
 D:\dl\projetsololocal\EasySave\Logger\obj\Debug\net8.0\refint\Logger.dll
 D:\dl\projetsololocal\EasySave\Logger\obj\Debug\net8.0\Logger.pdb
 D:\dl\projetsololocal\EasySave\Logger\obj\Debug\net8.0\ref\Logger.dll
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\Logger\bin\Debug\net8.0\Logger.deps.json
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\Logger\bin\Debug\net8.0\Logger.dll
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\Logger\bin\Debug\net8.0\Logger.pdb
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\Logger\obj\Debug\net8.0\Logger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\Logger\obj\Debug\net8.0\Logger.AssemblyInfoInputs.cache
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\Logger\obj\Debug\net8.0\Logger.AssemblyInfo.cs
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\Logger\obj\Debug\net8.0\Logger.csproj.CoreCompileInputs.cache
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\Logger\obj\Debug\net8.0\Logger.sourcelink.json
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\Logger\obj\Debug\net8.0\Logger.dll
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\Logger\obj\Debug\net8.0\refint\Logger.dll
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\Logger\obj\Debug\net8.0\Logger.pdb
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\Logger\obj\Debug\net8.0\ref\Logger.dll

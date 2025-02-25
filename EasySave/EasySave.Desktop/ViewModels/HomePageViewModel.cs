@@ -13,6 +13,7 @@ namespace EasySave.Desktop.ViewModels
     public class HomePageViewModel : INotifyPropertyChanged
     {
         private readonly JobManager jobManager;
+        private readonly RemoteConsoleServer remoteConsoleServer;
         private readonly SaveManager saveManager;
         private string _consoleLog = "";
         private Job _selectedJob;
@@ -86,6 +87,7 @@ namespace EasySave.Desktop.ViewModels
         {
             jobManager = JobManager.Instance;
             saveManager = new SaveManager();
+            remoteConsoleServer = RemoteConsoleServer.Instance;
             Jobs = new ObservableCollection<Job>(jobManager.ListJobs(false));
 
             AddJobCommand = new RelayCommand(_ => OnRequestAddJobWindow());
@@ -106,6 +108,7 @@ namespace EasySave.Desktop.ViewModels
             jobManager.OnMessageLogged += AppendConsoleLog;
             saveManager.OnMessageLogged += AppendConsoleLog;
             CryptoService.OnMessageLogged += AppendConsoleLog;
+            remoteConsoleServer.OnMessageLogged += AppendConsoleLog;
 
         }
 
@@ -139,6 +142,7 @@ namespace EasySave.Desktop.ViewModels
         /// <param name="SelectedJob">to take the job that the user has selected</param>
         private void EditJob()
         {
+            AppendConsoleLog("caca");
             if (SelectedJob == null)
             {
                 MessageBox.Show(LanguageManager.GetString("SelectJobToEdit"), "Avertissement", MessageBoxButton.OK, MessageBoxImage.Warning); // Message box to confirm the choice
@@ -363,8 +367,6 @@ namespace EasySave.Desktop.ViewModels
 
             serverThread.IsBackground = true;
             serverThread.Start();
-
-            ConsoleLog += "Serveur démarré.\n";
         }
         private void PauseJob()
         {

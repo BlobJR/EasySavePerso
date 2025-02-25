@@ -40,3 +40,9 @@ D:\dl\Projet_Genie_Logiciel\Projet_Genie_Logiciel\Version 2.0\EasySave\CryptoSof
 D:\dl\Projet_Genie_Logiciel\Projet_Genie_Logiciel\Version 2.0\EasySave\CryptoSoft\obj\Debug\CryptoSoft.csproj.CoreCompileInputs.cache
 D:\dl\Projet_Genie_Logiciel\Projet_Genie_Logiciel\Version 2.0\EasySave\CryptoSoft\obj\Debug\CryptoSoft.dll
 D:\dl\Projet_Genie_Logiciel\Projet_Genie_Logiciel\Version 2.0\EasySave\CryptoSoft\obj\Debug\CryptoSoft.pdb
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\CryptoSoft\bin\Debug\CryptoSoft.dll
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\CryptoSoft\bin\Debug\CryptoSoft.pdb
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\CryptoSoft\obj\Debug\CryptoSoft.csproj.AssemblyReference.cache
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\CryptoSoft\obj\Debug\CryptoSoft.csproj.CoreCompileInputs.cache
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\CryptoSoft\obj\Debug\CryptoSoft.dll
+C:\Users\alex-\Downloads\ProjetPerso\EasySavePerso\EasySave\CryptoSoft\obj\Debug\CryptoSoft.pdb

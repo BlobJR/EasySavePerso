@@ -438,6 +438,9 @@
   <data name="SelectLanguage" xml:space="preserve">
     <value>Choisissez votre language / Choose your language : </value>
   </data>
+  <data name="ServerAlreadyRunning" xml:space="preserve">
+    <value>Le serveur est déjà lancé.</value>
+  </data>
   <data name="ServerConnected" xml:space="preserve">
     <value> Connexion établie avec {0}:{1}.</value>
   </data>

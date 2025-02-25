@@ -48,8 +48,8 @@ namespace EasySave.Core.Services
             {
                 savemethod = job.SaveType switch
                 {
-                    SaveTypes.Complete => new Complete(largeFileSizeLimit, largeFileSemaphore, priorityExtensions, priorityLock),
-                    SaveTypes.Differential => new Differential(largeFileSizeLimit, largeFileSemaphore, priorityExtensions, priorityLock),
+                    SaveTypes.Complete => new Complete(largeFileSizeLimit, largeFileSemaphore, priorityExtensions, priorityLock,pauseEvent,token),
+                    SaveTypes.Differential => new Differential(largeFileSizeLimit, largeFileSemaphore, priorityExtensions, priorityLock, pauseEvent, token),
                     _ => throw new InvalidOperationException("Unknown save type")
                 };
 

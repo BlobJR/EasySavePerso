@@ -121,12 +121,12 @@
             </Grid>
         </GroupBox>
 
-        <!-- ✅ Colonne droite avec les boutons Pause/Resume/Stop -->
+        <!-- Colonne droite avec les boutons Pause/Resume/Stop -->
         <Grid Grid.Row="3" Grid.Column="1" Grid.RowSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Center">
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                <Button Content="⏸" Command="{Binding PauseCommand}" Width="50" Height="50"/>
-                <Button Content="▶" Command="{Binding ResumeCommand}" Width="50" Height="50"/>
-                <Button Content="⏹" Command="{Binding StopCommand}" Width="50" Height="50"/>
+                <Button Content="pause" Command="{Binding PauseJobCommand}" Width="50" Height="50"/>
+                <Button Content="resume" Command="{Binding ResumeJobCommand}" Width="50" Height="50"/>
+                <Button Content="stop" Command="{Binding StopJobCommand}" Width="50" Height="50"/>
             </StackPanel>
         </Grid>
     </Grid>

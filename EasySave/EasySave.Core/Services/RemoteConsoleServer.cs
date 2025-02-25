@@ -4,12 +4,14 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
+using System.Xml.Linq;
 using EasySave.Core.Models;
 
 namespace EasySave.Core.Services
 {
     public class RemoteConsoleServer
     {
+        public event Action<string>? OnMessageLogged;
         // Socket for listening to client connections
         private Socket _listener;
 
@@ -31,6 +33,11 @@ namespace EasySave.Core.Services
         /// <param name="port">The port number to bind the server to.</param>
         public void StartServer(int port = 5000)
         {
+            if (_listener != null)
+            {
+                LogMessage(LanguageManager.GetString("ServerAlreadyRunning"));
+                return;
+            }
             _listener = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             _listener.Bind(new IPEndPoint(IPAddress.Any, port));
             _listener.Listen(16);
@@ -243,7 +250,7 @@ namespace EasySave.Core.Services
         /// <param name="message">The message to log.</param>
         public void LogMessage(string message)
         {
-            Console.WriteLine(message);
+            OnMessageLogged?.Invoke(message);
             SendToAll(message);
         }
 

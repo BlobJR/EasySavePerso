@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dl\\projetsololocal\\EasySave\\EasySave.Command\\EasySave.Command.csproj": {}
+    "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Command\\EasySave.Command.csproj": {}
   },
   "projects": {
-    "D:\\dl\\projetsololocal\\EasySave\\CryptoSoft\\CryptoSoft.csproj": {
+    "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\CryptoSoft\\CryptoSoft.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\dl\\projetsololocal\\EasySave\\CryptoSoft\\CryptoSoft.csproj",
+        "projectUniqueName": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\CryptoSoft\\CryptoSoft.csproj",
         "projectName": "CryptoSoft",
-        "projectPath": "D:\\dl\\projetsololocal\\EasySave\\CryptoSoft\\CryptoSoft.csproj",
+        "projectPath": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\CryptoSoft\\CryptoSoft.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
@@ -20,20 +20,20 @@
         "net472": {}
       }
     },
-    "D:\\dl\\projetsololocal\\EasySave\\EasySave.Command\\EasySave.Command.csproj": {
+    "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Command\\EasySave.Command.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Command\\EasySave.Command.csproj",
+        "projectUniqueName": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Command\\EasySave.Command.csproj",
         "projectName": "EasySave.Command",
-        "projectPath": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Command\\EasySave.Command.csproj",
-        "packagesPath": "C:\\Users\\BlobJR\\.nuget\\packages\\",
-        "outputPath": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Command\\obj\\",
+        "projectPath": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Command\\EasySave.Command.csproj",
+        "packagesPath": "C:\\Users\\alex-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Command\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\BlobJR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alex-\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -48,8 +48,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\EasySave.Core.csproj": {
-                "projectPath": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\EasySave.Core.csproj"
+              "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\EasySave.Core.csproj": {
+                "projectPath": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\EasySave.Core.csproj"
               }
             }
           }
@@ -89,20 +89,20 @@
         }
       }
     },
-    "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\EasySave.Core.csproj": {
+    "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\EasySave.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\EasySave.Core.csproj",
+        "projectUniqueName": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\EasySave.Core.csproj",
         "projectName": "EasySave.Core",
-        "projectPath": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\EasySave.Core.csproj",
-        "packagesPath": "C:\\Users\\BlobJR\\.nuget\\packages\\",
-        "outputPath": "D:\\dl\\projetsololocal\\EasySave\\EasySave.Core\\obj\\",
+        "projectPath": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\EasySave.Core.csproj",
+        "packagesPath": "C:\\Users\\alex-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\EasySave.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\BlobJR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alex-\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -117,11 +117,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\dl\\projetsololocal\\EasySave\\CryptoSoft\\CryptoSoft.csproj": {
-                "projectPath": "D:\\dl\\projetsololocal\\EasySave\\CryptoSoft\\CryptoSoft.csproj"
+              "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\CryptoSoft\\CryptoSoft.csproj": {
+                "projectPath": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\CryptoSoft\\CryptoSoft.csproj"
               },
-              "D:\\dl\\projetsololocal\\EasySave\\Logger\\Logger.csproj": {
-                "projectPath": "D:\\dl\\projetsololocal\\EasySave\\Logger\\Logger.csproj"
+              "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\Logger\\Logger.csproj": {
+                "projectPath": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\Logger\\Logger.csproj"
               }
             }
           }
@@ -161,20 +161,20 @@
         }
       }
     },
-    "D:\\dl\\projetsololocal\\EasySave\\Logger\\Logger.csproj": {
+    "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\Logger\\Logger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dl\\projetsololocal\\EasySave\\Logger\\Logger.csproj",
+        "projectUniqueName": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\Logger\\Logger.csproj",
         "projectName": "Logger",
-        "projectPath": "D:\\dl\\projetsololocal\\EasySave\\Logger\\Logger.csproj",
-        "packagesPath": "C:\\Users\\BlobJR\\.nuget\\packages\\",
-        "outputPath": "D:\\dl\\projetsololocal\\EasySave\\Logger\\obj\\",
+        "projectPath": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\Logger\\Logger.csproj",
+        "packagesPath": "C:\\Users\\alex-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alex-\\Downloads\\ProjetPerso\\EasySavePerso\\EasySave\\Logger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\BlobJR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alex-\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

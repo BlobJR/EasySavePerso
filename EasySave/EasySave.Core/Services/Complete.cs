@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading;
@@ -15,19 +14,18 @@ namespace EasySave.Core.Services
         private readonly SemaphoreSlim largeFileSemaphore;
         private readonly List<string> priorityExtensions;
         private readonly object priorityLock;
-        //private readonly ManualResetEvent pauseEvent;
-        //private readonly CancellationToken token;
+        private readonly ManualResetEvent pauseEvent;
+        private readonly CancellationToken token;
 
-        public Complete(int largeFileSizeLimit, SemaphoreSlim largeFileSemaphore, List<string> priorityExtensions, object priorityLock)
+        public Complete(int largeFileSizeLimit, SemaphoreSlim largeFileSemaphore, List<string> priorityExtensions, object priorityLock, ManualResetEvent pauseEvent, CancellationToken token)
         {
             this.largeFileSizeLimit = largeFileSizeLimit;
             this.largeFileSemaphore = largeFileSemaphore;
             this.priorityExtensions = priorityExtensions;
             this.priorityLock = priorityLock;
-            //this.pauseEvent = pauseEvent;
-            //this.token = token;
+            this.pauseEvent = pauseEvent;
+            this.token = token;
         }
-
 
         public void ExecuteSave(Job job)
         {
@@ -36,8 +34,12 @@ namespace EasySave.Core.Services
             string[] files = Directory.GetFiles(job.SourcePath, "*", SearchOption.AllDirectories);
             var priorityQueue = new Queue<string>(files.Where(f => priorityExtensions.Contains(Path.GetExtension(f).ToLower())));
             var normalQueue = new Queue<string>(files.Where(f => !priorityExtensions.Contains(Path.GetExtension(f).ToLower())));
+
             while (priorityQueue.Count > 0 || normalQueue.Count > 0)
             {
+                if (token.IsCancellationRequested) return;
+                pauseEvent.WaitOne(); // Pause ici si nécessaire
+
                 string file;
                 bool isPriority = false;
 
@@ -62,6 +64,9 @@ namespace EasySave.Core.Services
 
         private void CopyFile(string file, Job job, bool isPriority)
         {
+            if (token.IsCancellationRequested) return;
+            pauseEvent.WaitOne();
+
             long fileSize = new FileInfo(file).Length / 1024; // Taille en Ko
             DateTime startTime = DateTime.Now;
 
